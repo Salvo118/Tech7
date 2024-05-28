@@ -1,0 +1,31 @@
+body {
+    background-color: lightblue;
+  }
+  
+h1 {
+    color: white;
+    text-align: center;
+  }
+
+.horizontal-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.horizontal-menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.horizontal-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+.horizontal-menu li a:hover {
+    background-color: #111;
+}
